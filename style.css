@@ -1,0 +1,82 @@
+@import url('fonts.googleapis.com');
+body.page {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; 
+  background-color: rgb(241, 227, 237);
+  /* this is about the space between the elements of the whole page */
+  line-height: 1.6;
+}
+
+.navbar{
+  /* //max-width: 100px; */
+  margin:auto;
+  padding: 10px;
+  display:inline;
+}
+.Dora_image{
+  width: 500px;
+  height: 260px;
+  border-radius:10px;
+  
+}
+
+#home{
+    h1{
+       text-align: center;
+       color: blueviolet;
+       text-decoration: underline;
+
+    }
+}
+
+#about{
+    h2{
+        text-decoration:underline;
+        color: rgb(167, 15, 178);
+    }
+    h3{
+        
+        color: rgb(96, 183, 207);
+    }
+}
+#work{
+    h2{
+        text-decoration:underline;
+        color: rgb(167, 15, 178);
+    }
+}
+#skills {
+  padding-left: 40px;
+  
+}
+
+#video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  display: block;
+}
+#resume{
+    h2{
+        text-decoration:underline;
+        color: rgb(167, 15, 178);
+    }
+}
+.table {
+  
+  width: 20%;
+  border-collapse: collapse;
+}
+#contact{
+    
+}
+.footer{
+    background-color: rgb(204, 164, 241);
+    h2{
+        text-decoration: underline;
+    }
+    h3{
+        display:contents;
+    }
+    font-weight: bold;
+}
